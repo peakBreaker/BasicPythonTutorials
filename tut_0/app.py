@@ -1,3 +1,4 @@
+
 ## Simple debugging
 print("hello world!")
 
@@ -16,4 +17,3 @@ print(myvar)
 ## Getting input
 myName=input("Please insert your name > ")
 print("Hello there %s !!" % myName)
-

@@ -1,5 +1,7 @@
-def myfunc():
-    print("myfunc is running!")
+def myfunc(argument):
+    #print("myfunc is running!")
+    print(argument)
     return "mystring"
 
-myfunc()
+myvar=myfunc("foo")
+print(myvar)
