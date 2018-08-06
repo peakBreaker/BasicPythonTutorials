@@ -1,11 +1,19 @@
+## Simple debugging
+print("hello world!")
 
-from flask import Flask
-app = Flask(__name__)
+## Plussing
+myvar=2+2
+print(myvar)
 
-@app.route("/")
-def hello():
-  return "Hello World!"
+## Minusing
+myvar=2-1
+print(myvar)
 
-if __name__ == '__main__':
-  app.run(debug=True, port=8000)
+## Multiplying
+myvar=2*5
+print(myvar)
+
+## Getting input
+myName=input("Please insert your name > ")
+print("Hello there %s !!" % myName)
 
