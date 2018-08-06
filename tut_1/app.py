@@ -1,19 +1,5 @@
-## Simple debugging
-print("hello world!")
+def myfunc():
+    print("myfunc is running!")
+    return "mystring"
 
-## Plussing
-myvar=2+2
-print(myvar)
-
-## Minusing
-myvar=2-1
-print(myvar)
-
-## Multiplying
-myvar=2*5
-print(myvar)
-
-## Getting input
-myName=input("Please insert your name > ")
-print("Hello there %s !!" % myName)
-
+myfunc()
